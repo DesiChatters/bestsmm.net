@@ -1386,3 +1386,24 @@ html .index.authorized #dropdown_for_search .dropdown-item:hover {
   color: #fff !important;
   text-decoration: none;
 }
+/* Integration */
+.integration-fixed {
+  position: fixed;
+  z-index: 10000000;
+}
+.integration-fixed__top-left {
+  top: 0;
+  left: 0;
+}
+.integration-fixed__top-right {
+  top: 0;
+  right: 0;
+}
+.integration-fixed__bottom-left {
+  bottom: 0;
+  left: 0;
+}
+.integration-fixed__bottom-right {
+  bottom: 0;
+  right: 0;
+}
